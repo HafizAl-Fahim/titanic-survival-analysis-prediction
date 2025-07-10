@@ -1,5 +1,63 @@
-<h3 align="center">This project explores the famous Titanic dataset to predict passenger survival using Python and supervised machine learning techniques. It combines data analysis, feature engineering, and model building to develop accurate survival prediction models.📊 Dataset Analysis Using Pandas, NumPy, and Seaborn, the dataset is thoroughly explored to understand relationships between features such as: Passenger class (Pclass) Age Sex Fare Family aboard (SibSp, Parch) Embarkation point (Embarked) Key steps include: Handling missing values (e.g., imputing missing Age and Embarked) Encoding categorical variables using Label Encoding and One-Hot Encoding Visualizing trends in survival rates across different demographics ⚙️ Machine Learning Techniques Several supervised classification models are applied and evaluated: Random Forest Classifier: Captures non-linear relationships and handles feature importance well AdaBoost Classifier: Boosts weak learners for better performance on imbalanced data The models are trained and tested using: Scikit-learn pipelines for preprocessing and training Cross-validation for performance evaluation Accuracy, precision, recall, and confusion matrix for result interpretation 🧪 Outcome The project demonstrates how ensemble learning techniques like Random Forest and AdaBoost can significantly improve prediction accuracy on structured datasets. It provides insights into key survival factors and builds an end-to-end machine learning pipeline.</h3>
+🚢 Titanic Survival Prediction: Data Analysis & ML Modeling
+This project explores the classic Titanic dataset to predict passenger survival using Python and supervised machine learning algorithms such as Random Forest and AdaBoost. It covers a complete workflow including data cleaning, feature engineering, visualization, and model evaluation.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+📁 Dataset
+The dataset contains passenger information including:
+
+PassengerId, Pclass, Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, and Embarked
+
+The target variable is Survived (0 = No, 1 = Yes)
+
+Dataset Source: Kaggle - Titanic: Machine Learning from Disaster
+
+🧰 Tools & Libraries Used
+Python
+
+NumPy, Pandas – for data manipulation
+
+Matplotlib, Seaborn – for data visualization
+
+Scikit-learn – for preprocessing, model building, and evaluation
+
+📊 Data Analysis & Preprocessing
+Handled missing values (Age, Embarked, Cabin)
+
+Converted categorical variables using Label Encoding and One-Hot Encoding
+
+Created new features like FamilySize, Title from name, etc.
+
+Visualized survival patterns using bar plots, histograms, and heatmaps
+
+🤖 Machine Learning Models
+Applied and compared the performance of:
+
+✅ Random Forest Classifier
+
+Handles high-dimensional data
+
+Provides feature importance insights
+
+✅ AdaBoost Classifier
+
+Boosts weak learners
+
+Often improves performance on imbalanced datasets
+
+🧪 Model Evaluation
+Used:
+
+Train-test split & cross-validation
+
+Accuracy, Precision, Recall, F1-score
+
+Confusion matrix and classification reports
+
+📈 Results
+Identified important features: Sex, Pclass, Age, Fare, Embarked, FamilySize
+
+Ensemble models like Random Forest and AdaBoost outperformed basic classifiers
+
+Achieved improved accuracy and generalization through preprocessing and tuning
+
+📌 Conclusion
+This project demonstrates a full pipeline for solving a binary classification problem using structured data. It highlights how ensemble learning techniques can enhance prediction accuracy and uncover hidden patterns in the data.
