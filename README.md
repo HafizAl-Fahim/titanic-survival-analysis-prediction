@@ -2,8 +2,9 @@
 
 <h3>This project explores the famous Titanic dataset to predict passenger survival using Python and supervised machine learning techniques. It combines data analysis, feature engineering, and model building to develop accurate survival prediction models.
 </h3>
-📊 Dataset Analysis
-Using Pandas, NumPy, and Seaborn, the dataset is thoroughly explored to understand relationships between features such as:
+
+<h4>📊 Dataset Analysis</h4>
+<I>Using Pandas, NumPy, and Seaborn, the dataset is thoroughly explored to understand relationships between features such as:</I>
 
 Passenger class (Pclass)
 
