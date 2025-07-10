@@ -59,5 +59,16 @@ Ensemble models like Random Forest and AdaBoost outperformed basic classifiers
 
 Achieved improved accuracy and generalization through preprocessing and tuning
 
+📂 Project Structure
+├── data/
+│   └── train.csv
+├── notebooks/
+│   └── titanic_analysis.ipynb
+├── models/
+│   └── random_forest_model.pkl
+├── titanic_prediction.py
+├── README.md
+
+
 📌 Conclusion
 This project demonstrates a full pipeline for solving a binary classification problem using structured data. It highlights how ensemble learning techniques can enhance prediction accuracy and uncover hidden patterns in the data.
